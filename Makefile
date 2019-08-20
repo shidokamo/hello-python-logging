@@ -1,4 +1,4 @@
 log:clean
-	pipenv run python hello.py
+	pipenv run python -u hello.py
 clean:
 	-rm txt*
