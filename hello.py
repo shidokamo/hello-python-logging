@@ -50,3 +50,5 @@ while True:
     if os.environ.get('LOG_INTERVAL'):
         time.sleep(float(os.environ['LOG_INTERVAL']))
     i += 1
+    if i > 1_000_000:
+        break
